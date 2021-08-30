@@ -20,7 +20,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/pkg/errors"
+	"errors"
 	"github.com/shiena/ansicolor"
 )
 

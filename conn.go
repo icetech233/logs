@@ -16,11 +16,10 @@ package logs
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net"
-
-	"github.com/pkg/errors"
 )
 
 // connWriter implements LoggerInterface.
