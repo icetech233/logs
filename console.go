@@ -16,12 +16,12 @@ package logs
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"os"
 	"strings"
 
-	"errors"
-	"github.com/shiena/ansicolor"
+	"github.com/icetech233/logs/ansicolor"
 )
 
 // brush is a color join function

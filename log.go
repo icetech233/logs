@@ -42,7 +42,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pkg/errors"
+	"errors"
 )
 
 // RFC5424 log message levels.

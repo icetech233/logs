@@ -17,12 +17,11 @@ package logs
 import (
 	"crypto/tls"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net"
 	"net/smtp"
 	"strings"
-
-	"github.com/pkg/errors"
 )
 
 // SMTPWriter implements LoggerInterface and is used to send emails via given SMTP-server.

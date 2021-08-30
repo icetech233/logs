@@ -2,11 +2,10 @@ package logs
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
 	"net/url"
-
-	"github.com/pkg/errors"
 )
 
 // JLWriter implements beego LoggerInterface and is used to send jiaoliao webhook

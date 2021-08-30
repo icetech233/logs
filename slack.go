@@ -3,10 +3,9 @@ package logs
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
-
-	"github.com/pkg/errors"
 )
 
 // SLACKWriter implements beego LoggerInterface and is used to send jiaoliao webhook
